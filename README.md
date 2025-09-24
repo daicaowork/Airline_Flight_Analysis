@@ -1,5 +1,5 @@
 
-# ✈️ Airline Flight Pricing Analysis using SQL  
+# ✈️ Airline Flight Pricing Analysis
 
 ## 📝 Project Introduction  
 
