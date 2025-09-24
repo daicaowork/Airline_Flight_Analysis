@@ -19,3 +19,10 @@ The main goal is to uncover insights about pricing distribution, airline strateg
 SELECT *
 FROM airlines_data
 WHERE price = (SELECT MAX(price) FROM airlines_data);
+```
+### 2.Cheapest Flight
+```sql
+SELECT *
+FROM airlines_data
+WHERE price = (SELECT MIN(price) FROM airlines_data);
+```
